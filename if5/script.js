@@ -11,7 +11,7 @@ let C = getRandomIntInterval(-100, 100)
 let countPlus = 0
 let countMinus = 0
 
-if (A <= 0 ) {
+if (A <= 0) {
     countMinus += 1
 } else {
     countPlus += 1

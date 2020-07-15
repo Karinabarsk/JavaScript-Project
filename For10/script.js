@@ -9,7 +9,7 @@ let B = getRandomIntInterval(5, 10)
 
 let sum = 0
 
-for(let i = A; i < B+1; i++ ){
+for(let i = A; i < B+1; i++ ){ // KISS for(let i = A; i <= B; i++ )
     sum += i
 }
 console.log(A)

@@ -7,6 +7,8 @@ const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // И�
 let A = getRandomIntInterval(1, 20)
 let B = getRandomIntInterval(1, 20)
 
+console.log("default - ", A, B)
+
 for(let i = B-1; i > A; i-- ){
     console.log('Числа по убыванию: ' + i + ' количество N этих чисел: ' + (B-A-1))
 }

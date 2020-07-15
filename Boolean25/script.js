@@ -7,7 +7,7 @@ const x = getRandomIntInterval(-1000, 9999)
 const y = getRandomIntInterval(-1000, 9999)
 
 
-if( x< 0 && y >0){
+if( x< 0 && y >0){ // Форматирование JS - разделяем пробелами операторы сравнения ( x < 0 && y > 0)
     console.log(true)
 } else {
     console.log(false)

@@ -7,6 +7,8 @@ const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Ð˜Ð
 let A = getRandomIntInterval(1, 100)
 let B = getRandomIntInterval(1, 100)
 
+console.log("default - ", A, B)
+
 for(let i = A; i < B; i++ ){
     console.log(i)
 }

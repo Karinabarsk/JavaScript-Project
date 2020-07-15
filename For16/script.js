@@ -4,12 +4,12 @@ const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // И�
 
 // Дано вещественное число A и целое число N (>0). Используя один цикл, вывести все целые степени числа A от 1 до N.
 
-let A = getRandomIntInterval(1, 20)
-let N = getRandomIntInterval(1, 20)
+let A = getRandomIntInterval(1, 5)
+let N = getRandomIntInterval(1, 5)
 
 let st = 1
-
-for( A = 1; A<N; A++){
-    st = N*A
+console.log(A, N)
+for( A = 1; A<N; A++){ // for(A = 1; A < N; A++){
+    st = N*A // st = N * A
 }
 console.log(st)
