@@ -1,17 +1,15 @@
 "use strict";
 
-const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Импортируем функции из файла utils.js
+const {getRandomIntInterval} = require('../utils') // Импортируем функции из файла utils.js
 
-// Даны два целых числа A и B (A < B). Найти сумму всех целых чисел от A до B включительно.
+// Дано целое число N (> 0). Найти "N! = 1·2·...·N" (N–факториал).
 
-let A = getRandomIntInterval(1, 5)
-let B = getRandomIntInterval(5, 10)
+let N = getRandomIntInterval(1, 50)
 
-let sum = 0
+let sum = 1
 
-for(let i = A; i < B+1; i++ ){
-    sum += i
+for(let i = 1; i <= N; i++ ){
+    sum *=i
 }
-console.log(A)
-console.log(B)
+console.log(N)
 console.log(sum)
