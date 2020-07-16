@@ -1,6 +1,6 @@
 "use strict";
 
-const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Импортируем функции из файла utils.js
+const {getRandomIntInterval, getRandomFloatInterval} = require('../utils') // Импортируем функции из файла utils.js
 
 // Даны два целых числа A и B (A < B). Найти сумму всех целых чисел от A до B включительно.
 
