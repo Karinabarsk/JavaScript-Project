@@ -7,9 +7,6 @@ const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Ð˜Ð
 let A = getRandomIntInterval(1, 20)
 let N = getRandomIntInterval(1, 20)
 
-let st = 1
-
-for( A = 1; A<N; A++){
-    st = N*A
+for(let i = 2; i<N ; i++){
+    console.log(Math.pow(A,i)) 
 }
-console.log(st)
