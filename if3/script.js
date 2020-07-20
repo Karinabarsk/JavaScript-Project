@@ -13,3 +13,15 @@ console.log(A -=2)
 } else if (A == 0) {
     console.log(A=10)
 }
+
+/*
+if (A > 0) {
+    ++A
+} else if (A<0) {
+    A -= 2
+} else if (A == 0) {
+    A = 10
+}
+
+console.log(A)
+*/

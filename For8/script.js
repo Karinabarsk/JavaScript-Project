@@ -9,7 +9,7 @@ let B = getRandomIntInterval(1, 10)
 let mult = 1 
 
 for(let i = A; i <= B; i++){
-    mult = mult*i
+    mult = mult*i // mult * i
 }
 console.log(mult)
 

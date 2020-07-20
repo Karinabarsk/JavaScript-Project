@@ -6,12 +6,7 @@ const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Ð˜Ð
 const x = getRandomIntInterval(-1000, 9999)
 const y = getRandomIntInterval(-1000, 9999)
 
-
-if( x< 0 && y >0){
-    console.log(true)
-} else {
-    console.log(false)
-}
+console.log(x < 0 && y > 0)
     
 
   

@@ -8,6 +8,13 @@ module.exports = {
     // Функция возвращающая рандомное ВЕЩЕСТВЕННОЕ число от min до max
     getRandomFloatInterval : (min, max) => {
         return Math.random() * (max - min) + min;
+    },
+    createArr : (count) => {
+        const arr = []
+        for(let i = 0; i < count; i++){
+            arr.push(getRng(0, 100))
+        }
+        return arr
     }
 }
 

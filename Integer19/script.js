@@ -9,6 +9,3 @@ const N = 61//getRandomIntInterval(1, 86400)
 const minDay = Math.round(N/60)
 
 console.log(minDay)
-
-const i
-  
