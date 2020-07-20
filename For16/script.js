@@ -1,15 +1,13 @@
 "use strict";
 
-const {getRandomIntInterval, getRandomFloatInterval} = require('./utils') // Импортируем функции из файла utils.js
+const {getRandomIntInterval} = require('./utils') // Импортируем функции из файла utils.js
 
 // Дано вещественное число A и целое число N (>0). Используя один цикл, вывести все целые степени числа A от 1 до N.
 
-let A = getRandomIntInterval(1, 5)
-let N = getRandomIntInterval(1, 5)
 
+const A = getRandomIntInterval(1, 20)
+const N = getRandomIntInterval(1, 20)
 
-let st = 1
-console.log(A, N)
-for(let i = 2; i<N ; i++){
+for(let i = 1; i<=N ; i++){
     console.log(Math.pow(A,i))
 }
