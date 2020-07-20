@@ -11,7 +11,7 @@ const b = getRandomIntInterval(10, 9999)
 const c = getRandomIntInterval(10, 9999)
 
 
-if( a === b || a === c || c === b){
+if( a === b || a === c || c === b){ // См. Boolean25
     console.log('Треугольник равнобедренный')
 } else {
     console.log('Треугольник не равнобедренный')

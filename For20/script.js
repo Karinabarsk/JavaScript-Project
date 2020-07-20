@@ -5,6 +5,7 @@ const {getRandomIntInterval} = require('../utils') // Импортируем ф�
 // Дано целое число N (> 0). Используя один цикл, найти сумму "1! + 2! + 3! + ... + N!"
 
 const N = getRandomIntInterval(1, 20)
+console.log(N)
 let sum = 0
 let F = 1
 

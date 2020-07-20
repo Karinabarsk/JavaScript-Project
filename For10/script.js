@@ -8,9 +8,9 @@ let N = getRandomIntInterval(1, 50)
 
 let sum = 1
 
-for(let i = A; i < B+1; i++ ){ // KISS for(let i = A; i <= B; i++ )
-    sum += i
-
+for(let i = 1; i <= N; i++ ){
+    sum *=i
 }
+
 console.log(N)
 console.log(sum)
